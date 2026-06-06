@@ -87,25 +87,25 @@ Maintains the relationship between bookings and allocated rooms.
 ### Home Screen
 
 <p align="center">
-  <img src="pic.readme/home.jpg" width="30%">
+  <img src="pic.readme/home.jpg" width="40%">
 </p>
 
 ### Room Selection
 
 <p align="center">
-  <img src="pic.readme/selection.jpg" width="50%">
+  <img src="pic.readme/selection.jpg" width="60%">
 </p>
 
 ### Dashboard
 
 <p align="center">
-  <img src="pic.readme/dashboard.jpg" width="50%">
+  <img src="pic.readme/dashboard.jpg" width="60%">
 </p>
 
 ### Guest Details
 
 <p align="center">
-  <img src="pic.readme/Guest%20details.jpg" width="30%">
+  <img src="pic.readme/Guest%20details.jpg" width="40%">
 </p>
 ## 🚀 How to Run
 
