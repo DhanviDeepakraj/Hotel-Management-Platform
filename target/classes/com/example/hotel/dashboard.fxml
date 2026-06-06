@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+        fx:controller="com.example.hotel.DashboardController"
+        prefWidth="600" prefHeight="450"
+        style="-fx-background-color: #f5f6fa;">
+
+        <!-- SIDEBAR -->
+        <left>
+                <VBox spacing="12"
+                        prefWidth="180"
+                        alignment="TOP_LEFT"
+                        style="-fx-background-color: white; -fx-padding: 15;">
+
+                        <Label fx:id="welcomeLabel"
+                                text="Welcome"
+                                style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+                        <Separator />
+
+                        <Button text="View Services"
+                                onAction="#showServices"
+                                maxWidth="Infinity" prefHeight="35"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;" />
+
+                        <Button text="Order Food"
+                                onAction="#showFood"
+                                maxWidth="Infinity" prefHeight="35"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;" />
+
+                        <Button text="Book Another Room"
+                                onAction="#showBooking"
+                                maxWidth="Infinity" prefHeight="35"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;" />
+
+                        <Button text="Help"
+                                onAction="#showHelp"
+                                maxWidth="Infinity" prefHeight="35"
+                                style="-fx-background-color: #3498db; -fx-text-fill: white;" />
+
+                        <Region VBox.vgrow="ALWAYS" />
+
+                        <Separator />
+
+                        <Button text="Checkout"
+                                onAction="#showCheckout"
+                                maxWidth="Infinity" prefHeight="35"
+                                style="-fx-background-color: #e74c3c; -fx-text-fill: white;" />
+
+                        <Button text="Logout"
+                                onAction="#handleLogout"
+                                maxWidth="Infinity" prefHeight="32"
+                                style="-fx-background-color: #ecf0f1;" />
+
+                </VBox>
+        </left>
+
+        <!-- DYNAMIC CENTER -->
+        <center>
+                <StackPane fx:id="contentArea">
+
+                        <!-- DEFAULT CONTENT -->
+                        <VBox alignment="CENTER" spacing="10">
+
+                                <Label text="Welcome to The Pearl Hotel"
+                                        style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+
+                                <Label
+                                        text="Use this dashboard to access and manage hotel services with ease."
+                                        style="-fx-text-fill: #7f8c8d;" />
+
+                        </VBox>
+
+                </StackPane>
+        </center>
+
+</BorderPane>

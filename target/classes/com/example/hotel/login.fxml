@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+    xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="com.example.hotel.LoginController"
+    prefWidth="380"
+    prefHeight="500"
+    alignment="TOP_CENTER"
+    spacing="20"
+    style="-fx-background-color: #1E3A5F;">
+
+    <padding>
+        <Insets top="50" left="30" right="30" bottom="30" />
+    </padding>
+
+    <!-- TITLE -->
+    <VBox alignment="CENTER" spacing="5">
+        <Label text="Welcome to"
+            style="-fx-text-fill: white; -fx-font-size: 16px;" />
+
+        <Label text="The Pearl Hotel"
+            style="-fx-text-fill: white; -fx-font-size: 26px; -fx-font-weight: bold;" />
+    </VBox>
+
+    <!-- SUBTITLE -->
+    <Label text="Enter booking details"
+        style="-fx-text-fill: white; -fx-font-size: 16px; -fx-font-weight: bold;" />
+
+    <!-- FORM -->
+    <VBox spacing="15"
+        alignment="CENTER"
+        style="-fx-background-color: white; -fx-background-radius: 10; -fx-padding: 20;">
+
+        <!-- PHONE -->
+        <VBox spacing="5">
+            <Label text="Phone number"
+                style="-fx-text-fill: #2D3748;" />
+            <TextField fx:id="phoneField"
+                prefWidth="240"
+                promptText="Enter phone number"
+                style="-fx-background-radius: 6;" />
+        </VBox>
+
+        <!-- BOOKING ID -->
+        <VBox spacing="5">
+            <Label text="Booking ID"
+                style="-fx-text-fill: #2D3748;" />
+            <TextField fx:id="bookingIdField"
+                prefWidth="240"
+                promptText="Enter booking ID"
+                style="-fx-background-radius: 6;" />
+        </VBox>
+
+        <!-- PASSCODE -->
+        <VBox spacing="5">
+            <Label text="Passcode"
+                style="-fx-text-fill: #2D3748;" />
+            <PasswordField fx:id="passcodeField"
+                prefWidth="240"
+                promptText="Enter passcode"
+                style="-fx-background-radius: 6;" />
+        </VBox>
+
+    </VBox>
+
+    <!-- SPACER -->
+    <Region VBox.vgrow="ALWAYS" />
+
+    <!-- LOGIN BUTTON -->
+    <Button text="Login"
+        onAction="#handleLoginClick"
+        prefWidth="180"
+        prefHeight="45"
+        style="
+                -fx-background-color: #2C5282;
+                -fx-text-fill: white;
+                -fx-font-size: 14px;
+                -fx-font-weight: bold;
+                -fx-background-radius: 8;
+            " />
+
+    <!-- BACK BUTTON -->
+    <Button text="Back"
+        onAction="#handleBackClick"
+        prefWidth="100"
+        prefHeight="35"
+        style="
+                -fx-background-color: transparent;
+                -fx-border-color: #CBD5E0;
+                -fx-border-radius: 8;
+                -fx-text-fill: #CBD5E0;
+                -fx-font-size: 12px;
+            " />
+
+</VBox>
