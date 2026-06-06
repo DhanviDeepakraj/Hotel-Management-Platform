@@ -82,18 +82,17 @@ Maintains the relationship between bookings and allocated rooms.
 
 ## 📸 Application Screenshots
 
-## Home Screen
+## 📸 Application Screenshots
 
-<img src="pic.readme/home.jpg" width="70%">
+<p align="center">
+  <img src="pic.readme/home.jpg" width="30%" alt="Home Screen">
+  <img src="pic.readme/selection.jpg" width="30%" alt="Room Selection">
+</p>
 
-## Room Selection
-
-<img src="pic.readme/selection.jpg" width="70%">
-
-## Dashboard
-
-<img src="pic.readme/dashboard.jpg" width="70%">
-
+<p align="center">
+  <img src="pic.readme/dashboard.jpg" width="30%" alt="Dashboard">
+  <img src="pic.readme/Guest%20details.jpg" width="30%" alt="Guest Details">
+</p>
 ## 🚀 How to Run
 
 ### Prerequisites
