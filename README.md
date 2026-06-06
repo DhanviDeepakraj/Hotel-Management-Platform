@@ -160,6 +160,6 @@ mvn javafx:run
 
 ## 📄 Project Report
 
-A detailed project report containing Application Screenshots, PostgreSQL Testing Queries, Database Design and other details is available in the repository
+A detailed project report containing Application Screenshots, PostgreSQL Testing Queries, Database Design and other details is available in the repository as 'Hotel Management Platform Report'
 
 
